@@ -1,9 +1,13 @@
-🛒 Sacolão Online
-Bem-vindo ao projeto Sacolão Online! Este repositório contém o código para um sistema de gerenciamento de pedidos, usuários e produtos. Abaixo, você encontrará todas as informações necessárias para rodar o frontend e backend do projeto.
-
-🚀 Tecnologias Utilizadas
-Aqui estão as principais tecnologias e ferramentas usadas no projeto:
-
+🛒 Sacolão Online</br>
+</br>
+Bem-vindo ao projeto Sacolão Online! </br>
+</br>
+Este repositório contém o código para um sistema de gerenciamento de pedidos, usuários e produtos. Abaixo, você encontrará todas as informações necessárias para rodar o frontend e backend do projeto.</br>
+</br>
+🚀 Tecnologias Utilizadas</br>
+</br>
+Aqui estão as principais tecnologias e ferramentas usadas no projeto:</br>
+</br>
 <br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="80"/>
 Node.js: Plataforma JavaScript para o backend.
 
