@@ -31,7 +31,7 @@ Node.js (recomendado: versão 16)</br>
 </br>
 Yarn
 </br>
-Java JDK 11+
+Java JDK 17+
 </br>
 Spring Boot
 </br>
