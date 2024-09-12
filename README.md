@@ -1,3 +1,17 @@
+# Trabalho de Extensão da Faculdade - Curso de ADS - Análise e Desenvolvimento de Sistemas </br>
+</br>
+Abordando as Matérias de Computação em Nuvem e Banco de Dados.</br>
+</br>
+Usaremos o PostgreSql em Nuvem, além de hospedar o site em um dos serviços da AWS, usaremos o trabalho para atender um pequeno mercado de verduras e frutas da Cidade de Coromandel/MG.</br>
+</br>
+Trabalho será todo voluntários usando e serviços gratuitos. Terá além do site, um app mobile, toda parte de marketing digital da empresa rescem foramada.</br>
+</br>
+
+🌐 O Conhecimento só tem um destino, ser commpartilhado! 🌐
+
+
+
+
 🛒 Sacolão Online</br>
 </br>
 Bem-vindo ao projeto Sacolão Online! </br>
