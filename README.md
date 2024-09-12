@@ -27,7 +27,7 @@ OpenSSL: Biblioteca para criptografia utilizada no Node.js.
 </br>
 Antes de começar, certifique-se de ter o seguinte instalado:</br>
 </br>
-Node.js (recomendado: versão 16)</br>
+Node.js (recomendado: versão 22)</br>
 </br>
 Yarn
 </br>
