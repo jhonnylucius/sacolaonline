@@ -8,19 +8,19 @@ Este repositório contém o código para um sistema de gerenciamento de pedidos,
 </br>
 Aqui estão as principais tecnologias e ferramentas usadas no projeto:</br>
 </br>
-<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="80"/>
+<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40"/>
 Node.js: Plataforma JavaScript para o backend.
 
-<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="80"/>
+<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40"/>
 React: Biblioteca para construir interfaces de usuário no frontend.
 
-<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" width="80"/>
+<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" width="40"/>
 Spring Boot: Framework Java para o backend.
 
-<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" alt="Yarn" width="80"/>
+<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" alt="Yarn" width="40"/>
 Yarn: Gerenciador de pacotes JavaScript.
 
-<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openssl/openssl-original.svg" alt="OpenSSL" width="80"/>
+<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openssl/openssl-original.svg" alt="OpenSSL" width="40"/>
 OpenSSL: Biblioteca para criptografia utilizada no Node.js.
 
 📋 Pré-requisitos</br>
