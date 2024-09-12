@@ -7,7 +7,7 @@ Usaremos o PostgreSql em Nuvem, além de hospedar o site em um dos serviços da 
 Trabalho será todo voluntário usando e serviços gratuitos. Terá além do site, um app mobile e toda parte de marketing digital da empresa rescem formada.</br>
 </br>
 
-🌐 O Conhecimento só tem um destino, ser commpartilhado! 🌐
+🌐 O Conhecimento só tem um destino, ser compartilhado! 🌐
 
 
 
