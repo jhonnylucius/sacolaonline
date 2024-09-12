@@ -130,7 +130,7 @@ yarn upgrade</br>
 </br>
 Documentação oficial do React</br>
 </br>
-Documentação do Spring Boot</br>
+Documentação oficial do React</br>
 </br>
 Guia do Yarn</br>
 </br>
