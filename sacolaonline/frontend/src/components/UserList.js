@@ -1,7 +1,7 @@
 // src/components/UsersList.js
 
 import React, { useEffect, useState } from 'react';
-import { fetchUsers } from '../services/api';  // Importa a função de API que você criou
+import { fetchUsers } from '../service/api'; // Importa a função de API que você criou
 
 const UsersList = () => {
   const [users, setUsers] = useState([]);  // Estado para armazenar os usuários

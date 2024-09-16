@@ -1,7 +1,19 @@
 package com.sacolaonline.sacolaonline.model;
 
-import jakarta.persistence.*;
-import lombok.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "users")
@@ -23,6 +35,8 @@ public class User {
 
     private String address;
     private String phone;
-}
 
-// Add more fields as needed for the User model (e.g., date of birth, gender, etc.)
+    // Define a relação bidirecional com Reward
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true) // Remove o 'mappedBy'
+    private List<Reward> rewards = new ArrayList<>(); // Inicializa a lista
+}

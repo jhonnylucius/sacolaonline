@@ -18,8 +18,8 @@ const fetchData = async (endpoint) => {
 };
 
 // Função para buscar produtos
-export const fetchProducts = async () => {
-  return await fetchData('products');
+export const fetchProduct = async () => {
+  return await fetchData('product');
 };
 
 // Função para buscar pedidos

@@ -1,8 +1,8 @@
 // src/App.js
 import React from 'react';
-import User from './components/User'; // importando component
-import Product from './components/Product'; // importando component
-import Order from './components/Order'; // importando component
+import Order from './components/OrdersList';
+import Product from './components/ProductList';
+import User from './components/UserList';
 
 const App = () => {
   return (

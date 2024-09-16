@@ -1,14 +1,13 @@
 package com.sacolaonline.sacolaonline.service;
 
-import com.sacolaonline.sacolaonline.model.Order;
-import com.sacolaonline.sacolaonline.repository.OrderRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
-
-
 import java.util.List;
 import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.sacolaonline.sacolaonline.model.Order;
+import com.sacolaonline.sacolaonline.repository.OrderRepository;
 
 
 @Service

@@ -1,7 +1,7 @@
 // src/components/OrdersList.js
 
 import React, { useEffect, useState } from 'react';
-import { fetchOrders } from '../services/api';  // Importa a função de API que você criou
+import { fetchOrders } from '../service/api'; // Importa a função de API que você criou
 
 const OrdersList = () => {
   const [orders, setOrders] = useState([]);  // Estado para armazenar os pedidos

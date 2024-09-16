@@ -1,7 +1,7 @@
 package com.sacolaonline.sacolaonline.controller;
 
-import com.sacolaonline.model.Reward;
-import com.sacolaonline.service.RewardService;
+import com.sacolaonline.sacolaonline.model.Reward;
+import com.sacolaonline.sacolaonline.service.RewardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
