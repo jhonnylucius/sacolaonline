@@ -19,6 +19,7 @@ Este repositório contém o código para o sistema de gerenciamento de pedidos, 
 
 ### Tecnologias Utilizadas:
 
+- **Java**: Java é a linguagem de programação principal usada no desenvolvimento do backend do projeto. [Documentação](https://docs.oracle.com/en/java/)
 - **Node.js**: Plataforma JavaScript para o backend. [Documentação](https://nodejs.org/en/docs/)
 - **React**: Biblioteca para construir interfaces de usuário no frontend. [Documentação](https://reactjs.org/docs/getting-started.html)
 - **Spring Boot**: Framework Java para backend. [Documentação](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
@@ -29,6 +30,7 @@ Este repositório contém o código para o sistema de gerenciamento de pedidos, 
 ---
 
 ### Pré-requisitos
+
 
 - **Node.js** (versão 22 ou superior)
 - **Yarn**
@@ -44,6 +46,7 @@ Este repositório contém o código para o sistema de gerenciamento de pedidos, 
 
 Aqui estão as principais tecnologias e ferramentas usadas no projeto:
 
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40px"/> **Java**: Java é a linguagem de programação principal usada no desenvolvimento do backend do projeto.
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40"/> **Node.js**: Plataforma JavaScript para o backend.
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40"/> **React**: Biblioteca para construir interfaces de usuário no frontend.
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" width="40"/> **Spring Boot**: Framework Java para o backend.
