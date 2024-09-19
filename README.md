@@ -7,167 +7,162 @@ Usaremos o PostgreSql em Nuvem, além de hospedar o site em um dos serviços da 
 Trabalho será todo voluntário e usando serviços gratuitos. Terá além do site, um app mobile e toda parte de marketing digital da empresa rescem formada.</br>
 </br>
 
+# Sacolão Online - README
+
+## Projeto de Extensão da Faculdade - Curso de ADS
+
 🌐 O Conhecimento só tem um destino, ser compartilhado! 🌐
 
+Este repositório contém o código para o sistema de gerenciamento de pedidos, usuários e produtos para um mercado de verduras e frutas.
 
+---
 
+### Tecnologias Utilizadas:
 
-🛒 Sacolão Online</br>
-</br>
-Bem-vindo ao projeto Sacolão Online! </br>
-</br>
-Este repositório contém o código para um sistema de gerenciamento de pedidos, usuários e produtos. Abaixo, você encontrará todas as informações necessárias para rodar o frontend e backend do projeto.</br>
-</br>
-🚀 Tecnologias Utilizadas</br>
-</br>
-Aqui estão as principais tecnologias e ferramentas usadas no projeto:</br>
-</br>
-<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40"/>
-Node.js: Plataforma JavaScript para o backend.
+- **Node.js**: Plataforma JavaScript para o backend. [Documentação](https://nodejs.org/en/docs/)
+- **React**: Biblioteca para construir interfaces de usuário no frontend. [Documentação](https://reactjs.org/docs/getting-started.html)
+- **Spring Boot**: Framework Java para backend. [Documentação](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
+- **Yarn**: Gerenciador de pacotes JavaScript. [Guia do Yarn](https://classic.yarnpkg.com/en/docs/)
+- **OpenSSL**: Biblioteca de criptografia utilizada no Node.js. [Novo link OpenSSL FAQ](https://www.openssl.org/docs/faq.html)
+- **PostgreSQL**: Banco de dados relacional na nuvem. [Documentação](https://www.postgresql.org/docs/)
 
-<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40"/>
-React: Biblioteca para construir interfaces de usuário no frontend.
+---
 
-<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" width="40"/>
-Spring Boot: Framework Java para o backend.
+### Pré-requisitos
 
-<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" alt="Yarn" width="40"/>
-Yarn: Gerenciador de pacotes JavaScript.
+- **Node.js** (versão 22 ou superior)
+- **Yarn**
+- **Java JDK 17+**
+- **Spring Boot**
+- **OpenSSL**
 
-<br> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openssl/openssl-original.svg" alt="OpenSSL" width="40"/>
-OpenSSL: Biblioteca para criptografia utilizada no Node.js.
+---
 
-📋 Pré-requisitos</br>
-</br>
-Antes de começar, certifique-se de ter o seguinte instalado:</br>
-</br>
-Node.js (recomendado: versão 22)</br>
-</br>
-Yarn
-</br>
-Java JDK 17+
-</br>
-Spring Boot
-</br>
-OpenSSL</br>
-</br>
-🛠️ Setup do Projeto</br>
-</br>
-1. Verificar versões instaladas</br>
-</br>
-Certifique-se de que todas as ferramentas necessárias estão instaladas corretamente, verificando suas versões com os seguintes comandos:
-</br>
-bash</br>
-Copiar código</br>
-# Verificar versão do Node.js</br>
-node -v</br>
-</br>
-# Verificar versão do Yarn</br>
-</br>
-yarn -v
-</br>
-# Verificar versão do Java</br>
-</br>
-java -version</br>
-</br>
-# Verificar versão do Spring Boot</br>
-</br>
-spring --version
-</br>
-# Verificar versão do OpenSSL</br>
-</br>
-openssl version</br>
-<br>
-2. Configuração do Frontend (React)</br>
-</br>
-Instale as dependências do projeto usando Yarn:</br>
+### Setup do Projeto
+
+#### Tecnologias e Ferramentas
+
+Aqui estão as principais tecnologias e ferramentas usadas no projeto:
+
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40"/> **Node.js**: Plataforma JavaScript para o backend.
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40"/> **React**: Biblioteca para construir interfaces de usuário no frontend.
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" width="40"/> **Spring Boot**: Framework Java para o backend.
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" alt="Yarn" width="40"/> **Yarn**: Gerenciador de pacotes JavaScript.
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openssl/openssl-original.svg" alt="OpenSSL" width="40"/> **OpenSSL**: Biblioteca para criptografia utilizada no Node.js.
+
+#### Soluções de Erro
+
+Caso você encontre o erro `ERR_OSSL_EVP_UNSUPPORTED` relacionado ao OpenSSL, execute o seguinte comando para usar a flag de `openssl-legacy-provider`:
+
+---
+export NODE_OPTIONS=--openssl-legacy-provider
+---
+Para usuários Windows:
+---
+set NODE_OPTIONS=--openssl-legacy-provider
+---
+
+#### Atualizando dependências e ferramentas
+Caso precise atualizar as dependências e garantir que tudo está na versão mais recente, utilize os comandos abaixo:
+
+- Atualizar pacotes do frontend:
+---
+./mvnw clean install
+---
+- Atualizar pacotes no backend (Java):
+---
+./mvnw clean install
+---
+#### onfiguração do Projeto
+
+1. Configuração do Frontend (React)
+---
+yarn install
+yarn start
+---
+#### O frontend será iniciado em http://localhost:3000.
+
+2. Configuração do Backend (Spring Boot)
+
+---
+./mvnw spring-boot:run
+---
+O backend será iniciado em http://localhost:8080.
+---
+## Migrações do Banco de Dados
+
+Estrutura inicial (V1)
+
+A V1 contém a criação das tabelas:
+
+- product: Produtos do sistema.</br>
+
+- users: Usuários com suporte a login via Google.</br>
+
+- orders: Pedidos realizados.</br>
+
+- order_items: Itens pertencentes aos pedidos.</br>
+
+- rewards: Sistema de fidelidade.</br>
+
+- payment_methods: Métodos de pagamento, incluindo QR code.</br>
+
+- stock_history: Histórico de vendas e estoque.</br>
+
+Índices (V2)</br>
+
+A V2 contém a criação de índices para otimizar as consultas:</br>
+
+- Índices para a tabela "product"</br>
+
+CREATE INDEX IF NOT EXISTS idx_product_name ON product(name);</br>
+CREATE INDEX IF NOT EXISTS idx_product_price ON product(price);</br>
+CREATE INDEX IF NOT EXISTS idx_product_category ON product(category);</br>
+CREATE INDEX IF NOT EXISTS idx_product_validity_date ON product(validity_date);</br>
 </br>
 
-bash</br>
-Copiar código</br>
-yarn install</br>
-</br>
-Inicie o servidor de desenvolvimento do React:</br>
+- Índices para a tabela "users"</br>
+
+CREATE INDEX IF NOT EXISTS idx_user_username ON users(username);</br>
+CREATE INDEX IF NOT EXISTS idx_user_email ON users(email);</br>
+CREATE INDEX IF NOT EXISTS idx_users_provider_id ON users(provider_id);</br>
 </br>
 
-bash</br>
-Copiar código</br>
-yarn start</br>
-</br>
-O frontend será iniciado em http://localhost:3000.</br>
-</br>
-<br>
-3. Configuração do Backend (Spring Boot)</br>
-</br>
-Navegue até o diretório do backend e inicie o servidor Spring Boot:</br>
-</br>
-bash</br>
-Copiar código</br>
-./mvnw spring-boot:run</br>
-</br>
-O backend será iniciado em http://localhost:8080.</br>
-</br>
-<br>
-4. Soluções de Erro (caso ocorra)</br>
-</br>
-Node.js: ERR_OSSL_EVP_UNSUPPORTED</br>
-</br>
-Se você encontrar o erro relacionado ao OpenSSL, execute o seguinte comando para usar a flag de openssl-legacy-provider:
-</br>
-bash</br>
-Copiar código</br>
-# Solução temporária</br>
-</br>
-export NODE_OPTIONS=--openssl-legacy-provider</br>
-</br>
-Para usuários Windows:</br>
-</br>
-bash</br>
-Copiar código</br>
-set NODE_OPTIONS=--openssl-legacy-provider</br>
-<br>
-5. Atualizando dependências e ferramentas</br>
-</br>
-Caso precise atualizar as dependências e garantir que tudo está na versão mais recente, utilize os comandos abaixo:</br>
-</br>
-bash</br>
-Copiar código</br>
-# Atualizar pacotes do frontend</br>
-</br>
-yarn upgrade</br>
-</br>
-# Atualizar pacotes no backend (Java)</br>
-</br>
-./mvnw clean install</br>
-</br>
-📄 Documentação do Projeto</br>
-</br>
-Documentação oficial do React</br>
-</br>
-Documentação oficial do React</br>
-</br>
-Guia do Yarn</br>
-</br>
-OpenSSL FAQs</br>
-</br>
-🌐 Endpoints</br>
-</br>
-Frontend: http://localhost:3000</br>
-</br>
-Backend: http://localhost:8080</br>
-</br>
-Rotas Disponíveis no Backend
-</br>
-/pedidos: Gerenciamento de pedidos
-</br>
-/produtos: Gerenciamento de produtos
-</br>
-/usuarios: Gerenciamento de usuários
-</br>
-🧑‍💻 Contribuidores
-</br>
-Sinta-se à vontade para contribuir! Abra issues, envie pull requests e vamos melhorar este projeto juntos. Se encontrar dificuldades, confira os logs e não hesite em pedir ajuda.</br>
-</br>
-📄 Licença</br>
-</br>
-Este projeto é licenciado sob a MIT License.
+- Índices para a tabela "orders"</br>
+
+CREATE INDEX IF NOT EXISTS idx_order_status ON orders(status);</br>
+CREATE INDEX IF NOT EXISTS idx_order_user_id ON orders(user_id);</br>
+CREATE INDEX IF NOT EXISTS idx_order_created_at ON orders(created_at);</br>
+CREATE INDEX IF NOT EXISTS idx_order_user_id_status ON orders(user_id, status);  -- Índice composto</br>
+
+- Índices para a tabela "order_items"</br>
+
+CREATE INDEX IF NOT EXISTS idx_order_items_order_id ON order_items(order_id);</br>
+CREATE INDEX IF NOT EXISTS idx_order_items_product_id ON order_items(product_id);</br>
+
+- Índices para a tabela "payment_methods"</br>
+
+CREATE INDEX IF NOT EXISTS idx_payment_methods_order_id ON payment_methods(order_id);</br>
+
+- Índices para a tabela "rewards"</br>
+
+CREATE INDEX IF NOT EXISTS idx_rewards_user_id ON rewards(user_id);</br>
+
+- Índices para a tabela "stock_history"</br>
+
+CREATE INDEX IF NOT EXISTS idx_stock_history_product_id ON stock_history(product_id);</br>
+CREATE INDEX IF NOT EXISTS idx_stock_history_sale_date_product_id ON stock_history(sale_date, product_id);</br>
+
+- API Endpoints</br>
+
+- Endpoints principais:<\br>
+- /api/users: Gerenciamento de usuários (criação, consulta).</br>
+- /api/product: Gerenciamento de produtos (criação, consulta, atualização, remoção).</br>
+- /api/orders: Gerenciamento de pedidos e itens do pedido.</br>
+
+### Contribuição
+
+- Sinta-se à vontade para contribuir! Abra issues, envie pull requests, e vamos melhorar o projeto juntos.
+
+### Licença
+- Este projeto está licenciado sob a licença MIT.
